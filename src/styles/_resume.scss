@@ -1,0 +1,43 @@
+.resume-section {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+p {
+    padding-right: 1rem;
+}
+
+h3 {
+    color: white; 
+}
+
+.resume-item-container {
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.resume-left-content {
+    width: 20%;
+    p {
+        display: inline-block;
+    }
+}
+
+.resume-right-content {
+    margin-left: 3rem;
+    width: 100%;
+    h5 {
+        color: #037fff;
+        font-size: 2rem;
+        padding-bottom: .4rem;
+    }
+
+    h6 {
+        color: white;
+        font-size: 1.2rem;
+        padding-bottom: .4rem;
+    }
+
+
+}

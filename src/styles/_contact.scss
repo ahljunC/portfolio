@@ -1,0 +1,104 @@
+.contactPage-container {
+    margin-top: 4rem;
+    @media screen and (min-width: 1000px) {
+        display: flex;
+    }
+
+    .page-content-left {
+        width: 100%;
+    }
+
+    .page-content-right {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.form-container {
+    margin-right: 2rem;
+    .form {
+        width: 100%;
+        .form-field {
+            margin-top: 2rem;
+            position: relative;
+            width: 100%;
+            label {
+                position: absolute;
+                left: 20px;
+                top: -19px;
+                display: inline-block;
+                background-color: #12141f;
+                padding: 0rem .5rem;
+                color: inherit;
+            }
+            input {
+                border: 1px solid #2e344e;
+                outline: none;
+                background: transparent;
+                height: 50px;
+                padding: 0 15px;
+                width: 100%;
+                color: inherit;
+            }
+            textarea{
+                border: 1px solid #2e344e;
+                outline: none;
+                padding: 10px 15px;
+                background: transparent;
+                width: 100%;
+                color: inherit;
+            }
+    
+        }
+    
+        .send-email-btn {
+            padding: 1rem 2rem;
+            background-color: #037fff;
+            outline: none;
+            border: none;
+            font-family: inherit;
+            font-size: inherit;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            cursor: pointer;
+            margin-top: 1rem;
+            position: relative;
+            margin-bottom: 2rem;
+            &::after {
+                position: absolute;
+                content: "";
+                width: 0;
+                height: .3rem;
+                left: 0;
+                bottom: 0;
+                background-color: #133192;
+                transition: all 0.3s ease-in-out;
+            }
+            &:hover::after{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.contact-item {
+    padding: 1.5rem 2rem;
+    background-color: #2e344e;
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0; 
+
+    .contact-item-left {
+        padding: 2rem;
+        svg {
+            font-size: 2.3rem;
+        }
+        // border: 1px solid #a4acc4;
+    }
+
+    .contact-item-right {
+        // padding-left: 3rem;
+        // margin: 2rem 0s;
+    }
+}
